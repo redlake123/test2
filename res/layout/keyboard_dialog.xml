@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:kvwh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+   
+     <com.csii.keyboarddemo.view.KeyboardViewWithHeader  
+         android:id="@+id/keyboard_view"  
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"  
+         android:focusable="true"  
+         android:focusableInTouchMode="true"  
+         android:background="#66ffffff" 
+         kvwh:keyBackground="@drawable/key_bg"  
+         kvwh:keyTextColor="#fff"/>  
+   
+</LinearLayout>  
