@@ -27,8 +27,6 @@ public class KeyboardViewWithHeader extends LinearLayout {
 
 
 	public void setmHeader(View header) {
-//		TextView textView = new TextView(mContext);
-//		textView.setText("hhahha");
 		mHeader.removeAllViews();
 		mHeader.addView(header);
 	}
@@ -72,7 +70,7 @@ public class KeyboardViewWithHeader extends LinearLayout {
 		this.setOrientation(LinearLayout.VERTICAL);
 		this.setGravity(Gravity.BOTTOM);
 		
-		this.addView(mHeader);
+		this.addView(mKeyboardView);
 		this.addView(mKeyboardView);
 		mKeyboardView.addOnLayoutChangeListener(new OnLayoutChangeListener() {
 			
